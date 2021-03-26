@@ -8,20 +8,13 @@ class Perawat extends CI_Controller {
 		$this->load->view('template/index.php');
     }
     
-    public function tabel_berobat()
+    public function tambah_tensi()
 	{
-		$this->load->view('template/v_tabelberobat.php');
+		$this->load->view('perawat/Tensi.php');
     }
+	
     public function form_berobat()
 	{
 		$this->load->view('template/v_formberobat.php');
 	}
-	public function profil()
-	{
-		$this->load->view('template/v_profil.php');
-	}
-	public function login()
-	{
-		$this->load->view('template/v_login.php');
-    }
 }
